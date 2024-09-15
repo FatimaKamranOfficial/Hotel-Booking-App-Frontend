@@ -35,7 +35,6 @@ const MyBookings = () => {
 
   const wow = []
   const sep = roomnoid.map(a => { wow.push(...a) })
-  console.log(wow)
 
   const roomarr = roomnos.toString().split(",")
 
