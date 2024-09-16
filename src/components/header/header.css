@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-around;
     /* background-color: #de2360; */
-    background-color: #e7bfcc;
+    background-color: #f1d3f0;
     position: relative;
 }
 
@@ -274,7 +274,7 @@
     }
 
     .headertitle {
-        font-size: 22px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -283,7 +283,7 @@
     }
 
     .headerpara {
-        font-size: 14px;
+        font-size: 13px;
         text-align: center;
     }
 
@@ -320,9 +320,6 @@
 
 
 @media screen and (max-width: 370px) {
-    .headertitle {
-        font-size: 20px;
-    }
 
     .headersearch {
         left: 30px;
