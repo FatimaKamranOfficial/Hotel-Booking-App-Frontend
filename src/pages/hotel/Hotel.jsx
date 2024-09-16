@@ -84,7 +84,7 @@ const Hotel = () => {
 
               <div className="hoteldetailprice">
                 <h1>Perfect for {days} - Nights Stay!</h1>
-                <span>Stay in the heart of Abha</span>
+                <span>Stay in the heart of City</span>
                 <h2>
                   <b>SAR ${days * data.cheapestPrice * options.room}</b> ({days} Nights)
                 </h2>

@@ -106,3 +106,107 @@
     font-size: 12px;
     color: gray;
 }
+
+@media screen and (max-width: 1060px) {
+    .hitem {
+        width: 36rem;
+    }
+
+    .himg {
+        width: 150px;
+    }
+
+    .htitle {
+        font-size: 18px;
+    }
+
+    .hprice {
+        font-size: 20px;
+    }
+
+    .hcheckbutton {
+        padding: 6px 5px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+
+    .himg {
+        width: 120px;
+    }
+
+    .htitle {
+        font-size: 14px;
+    }
+
+    .hdistance {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .hitem {
+        width: 32rem;
+    }
+
+    .hrating span {
+        font-size: 14px;
+        /* margin-right: 20px; */
+    }
+
+    .htaxi {
+        font-size: 10px;
+    }
+
+    .hrating button {
+        padding: 3px;
+    }
+
+    .hprice {
+        font-size: 16px;
+    }
+
+    .htaxop {
+        font-size: 10px;
+    }
+
+    .hcheckbutton {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .hitem {
+        flex-direction: column;
+        width: 20rem;
+        align-items: center;
+    }
+
+    .hdetails {
+        align-items: center;
+    }
+
+    .hdesc {
+        text-align: center;
+    }
+
+    .himg {
+        width: 120px;
+        height: 120px;
+    }
+
+    .htaxi {
+        display: flex;
+        align-self: center;
+    }
+
+    .hrating button {
+        margin-left: 20px;
+    }
+
+    .hdetailtexts {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
